@@ -26,3 +26,34 @@ const arr1 = ['a', 'b', 'c', 'd', 'e'];
 const arr2 = arr1.slice(1, 5) // ['b', 'c', 'd', 'e']
 const arr3 = arr1.slice(2) // ['c', 'd', 'e']
 
+
+// REPLACE
+// since we will not be mutating, 
+// use const
+1) map() 
+const arr1 = ['a', 'b', 'c', 'd', 'e']
+const arr2 = arr1.map(item => {
+  if(item === 'c') {
+    item = 'CAT';
+  }
+  return item;
+}); // ['a', 'b', 'CAT', 'd', 'e']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
