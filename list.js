@@ -21,8 +21,8 @@ const arr2 = arr1.filter(a => {
 }); // ['a', 'b', 'c', 'd']
 
 
-
-
-
-
+2) slice() takes two parameters.
+const arr1 = ['a', 'b', 'c', 'd', 'e'];
+const arr2 = arr1.slice(1, 5) // ['b', 'c', 'd', 'e']
+const arr3 = arr1.slice(2) // ['c', 'd', 'e']
 
