@@ -40,7 +40,7 @@ const arr2 = arr1.map(item => {
 }); // ['a', 'b', 'CAT', 'd', 'e']
 
 
-// ######################### Transforming Data with array.map() ###################
+// ######################### Transforming Data with array.map() ##################
 // since we will not be mutating, 
 // use const
 const origArr = ['a', 'b', 'c', 'd', 'e'];
