@@ -54,16 +54,3 @@ console.log(origArr); // ['a', 'b', 'c', 'd', 'e']; // orignal array is intact
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
